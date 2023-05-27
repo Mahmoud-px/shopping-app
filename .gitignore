@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.firebaserc
+.firebase/hosting.YnVpbGQ.cache
+.github/workflows/firebase-hosting-merge.yml
+.github/workflows/firebase-hosting-pull-request.yml
+firebase.json
+firebase-debug.log
+.github
