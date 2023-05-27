@@ -1,0 +1,2 @@
+export const CLIENT_ID = 'AWOhqMViaveE4hpYVAf7gE5srWx1HJmT6YnYUJksu35XWMucyQWiOyAm-aosau_MLarJwN5Y8K7DwvHG'
+export const APP_SECRET = 'ECfS43UfQsbM4FIm2XQyjl6GL2UNZkc4GLbTjICZCdVyqd-QmcbIpv5caFZv8Oef91sQB8EvtgPHHcfr'
