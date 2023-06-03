@@ -9,6 +9,7 @@ import love from '../assets/love.png'
 import rating from '../assets/rating.png'
 import sales from '../assets/sales.png'
 import shipping from '../assets/shipping.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -164,29 +165,33 @@ const Cart:React.FC<prop> = ({sideBar,setSideBar, barHeight}) => {
         </div>
 
         <div className={styles.footer}>
-            <div className={styles.brand} data-aos="fade-right">
-              <h2 className={styles.brandHeading}>SHOP HOUSE</h2>
-              <h5 className={styles.brandDescription}>
-                Established in 2015: With a rich history spanning over 8 years,<br />
-                SHOP HOUSE has been a trusted name in the world of shopping. <br />
-                Our longevity speaks to our expertise, reliability, and commitment
-                to delivering exceptional products and services.
-              </h5>
-            </div>
+          <div className={styles.brand} data-aos="fade-right">
+            <h2 className={styles.brandHeading}>SHOP HOUSE</h2>
+            <h5 className={styles.brandDescription}>
+              Established in 2015: With a rich history spanning over 8 years,<br />
+              SHOP HOUSE has been a trusted name in the world of shopping. <br />
+              Our longevity speaks to our expertise, reliability, and commitment
+              to delivering exceptional products and services.
+            </h5>
+          </div>
 
-            <div className={styles.branches} data-aos="zoom-in">
-              <h3 className={styles.brandHeading}>Branches</h3>
-              <h5 className={styles.branch}>Downtown Store, <br /> 123 Main Street, New York, NY 10001</h5>
-              <h5 className={styles.branch}>Beach side Outlet Store, <br /> 456 Market Street, San Francisco, CA 94103</h5>
-              <h5 className={styles.branch}>Mall of America Store, <br /> 789 Broadway Avenue, Chicago, IL 60607</h5>
-            </div>
+          <div className={styles.branches} data-aos="zoom-in">
+            <h3 className={styles.brandHeading}>Branches</h3>
+            <h5 className={styles.branch}>Downtown Store, <br /> 123 Main Street, New York, NY 10001</h5>
+            <h5 className={styles.branch}>Beach side Outlet Store, <br /> 456 Market Street, San Francisco, CA 94103</h5>
+            <h5 className={styles.branch}>Mall of America Store, <br /> 789 Broadway Avenue, Chicago, IL 60607</h5>
+          </div>
 
-            <div className={styles.links} data-aos="fade-left">
-              <h3 className={styles.brandHeading}>Links</h3>
-              <h5 className={styles.link}>Facebook</h5>
-              <h5 className={styles.link}>Instagram</h5>
-              <h5 className={styles.link}>WhatsApp</h5>
-            </div>
+          <div className={styles.links} data-aos="fade-left">
+            <h3 className={styles.brandHeading}>Links</h3>
+            <h5 className={styles.link}>Facebook</h5>
+            <h5 className={styles.link}>Instagram</h5>
+            <h5 className={styles.link}>WhatsApp</h5>
+          </div>
+
+        </div>
+        <div className={styles.credit}>
+          <h5 className={styles.salamaCredit}>©2023 developed by <Link target='_blank' to='https://salama-portfolio.web.app/' className={styles.salamaLink}>Mahmoud Salama</Link></h5>
         </div>
       </div>
     </>
