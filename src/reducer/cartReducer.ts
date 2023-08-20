@@ -11,7 +11,7 @@ interface cartState {
     disabled : boolean;
     totalItem: number,
     quantity: number
-  }
+}
 
 const initialState: Array<cartState> = [];
 
